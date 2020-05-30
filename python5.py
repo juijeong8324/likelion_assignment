@@ -1,0 +1,5 @@
+a = (1,2,3)
+al = list(a)
+al.append(5)
+a = tuple(al)
+print (f'a => {a}')
